@@ -4,9 +4,47 @@
 // Comment out this import if you don't want to use normalize
 @import "vendor/foundation/normalize";
 
-// Comment out this import if you are customizing you imports below
-@import "vendor/foundation/foundation";
+// Foundations settings
+@import "logicspot/components/base";
 
+// Replicate Foundations import order
+@import
+  "logicspot/components/grid",
+  "logicspot/components/accordion",
+  "logicspot/components/alert-boxes",
+  "logicspot/components/block-grid",
+  "logicspot/components/breadcrumbs",
+  "logicspot/components/button-groups",
+  "logicspot/components/buttons",
+  "logicspot/components/clearing",
+  "logicspot/components/dropdown",
+  "logicspot/components/dropdown-buttons",
+  "logicspot/components/flex-video",
+  "logicspot/components/forms",
+  "logicspot/components/inline-lists",
+  "logicspot/components/joyride",
+  "logicspot/components/keystrokes",
+  "logicspot/components/labels",
+  "logicspot/components/magellan",
+  "logicspot/components/orbit",
+  "logicspot/components/pagination",
+  "logicspot/components/panels",
+  "logicspot/components/pricing-tables",
+  "logicspot/components/progress-bars",
+  "logicspot/components/range-slider",
+  "logicspot/components/reveal",
+  "logicspot/components/side-nav",
+  "logicspot/components/split-buttons",
+  "logicspot/components/sub-nav",
+  "logicspot/components/switch",
+  "logicspot/components/tables",
+  "logicspot/components/tabs",
+  "logicspot/components/thumbs",
+  "logicspot/components/tooltips",
+  "logicspot/components/top-bar",
+  "logicspot/components/type",
+  "logicspot/components/offcanvas",
+  "logicspot/components/visibility";
 
 
 
